@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IF Statement</title>
+    <script>
+        // if 조건문
+        //조건이true이면 문장을 실행하고 false이면 문장을 무시한다
+        // if( 273 < 52){
+        //      "273 < 52"가 참이라면 alert문을 실행합니다
+        //     alert('273 < 52 => true');
+        // }
+        // 표현식이 거짓이였기 때문에 조건문 외부의 alert문이 실행되었다.
+
+        // if( 273 > 52){
+        //      "273 > 52"가 참이라면 alert문을 실행합니다
+        //     alert('273 > 52 => true');
+        // } 표현식이 참이기 때문에 조건문에 포함된 alert문과 외부의 alert문이 모두 실행됨
+
+        // 일반 숫자 대신 변수를 지정해서 넣어 봅시다!
+        const a = 273;
+        const b = 52;
+
+        // if 조건문
+        if ( a > b){
+            //a가 b보다 더 크면 조건문 내부의 alert문을 실행한다.
+            alert('a가 더 큰 수입니다.');
+        } // 해당 조건이 true이기 때문에 조건문 내부의 alert문을 실행하고, 외부의 alert문을 실행했다.
+        //프로그램 종료
+        //표현식이 거짓이라면 위의 조건식 alert문은 실행하지 않고 조건문 아래의 alert문이 실행된다.
+        alert('프로그램 종료');
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
